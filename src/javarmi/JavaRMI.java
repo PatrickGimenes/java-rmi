@@ -5,6 +5,8 @@
  */
 package javarmi;
 
+import javarmi.DAO.PessoaDAO;
+
 /**
  *
  * @author Patrick Gimenes
@@ -16,6 +18,10 @@ public class JavaRMI {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        //Pessoa pessoa = new Pessoa("Pedro", 30, "199854613", "25/08/1997");
+        //PessoaDAO.salvar(pessoa);
+        PessoaDAO.buscarUsuarioPorId(1);
+        PessoaDAO.buscarUsuarioPorId(2);
     }
-    
+
 }
