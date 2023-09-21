@@ -3,9 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Patrick%20Gimenes/Documents/GitHub/java-rmi/src/javarmi/DAO/PessoaDAO.java</file>
-            <file>file:/C:/Users/Patrick%20Gimenes/Documents/GitHub/java-rmi/src/RMI/ServicoPessoa.java</file>
-            <file>file:/C:/Users/Patrick%20Gimenes/Documents/GitHub/java-rmi/src/RMI/ServicoPessoaImpl.java</file>
+            <file>file:/C:/Users/Patrick%20Gimenes/Documents/GitHub/java-rmi/src/javarmi/ServicoPessoa.java</file>
+            <file>file:/C:/Users/Patrick%20Gimenes/Documents/GitHub/java-rmi/src/javarmi/ServicoPessoaImpl.java</file>
+            <file>file:/C:/Users/Patrick%20Gimenes/Documents/GitHub/java-rmi/src/javarmi/PessoaDAO.java</file>
+            <file>file:/C:/Users/Patrick%20Gimenes/Documents/GitHub/java-rmi/src/javarmi/ServidorRMI.java</file>
+            <file>file:/C:/Users/Patrick%20Gimenes/Documents/GitHub/java-rmi/src/javarmi/JavaRMI.java</file>
         </group>
     </open-files>
 </project-private>

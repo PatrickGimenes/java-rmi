@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package javarmi;
 
-import javarmi.DAO.PessoaDAO;
+
+
 
 /**
  *
@@ -18,10 +18,11 @@ public class JavaRMI {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        //Pessoa pessoa = new Pessoa("Pedro", 30, "199854613", "25/08/1997");
-        //PessoaDAO.salvar(pessoa);
+        Pessoa pessoa = new Pessoa("caio", 30, "dsa", "25/08/1990");
+        PessoaDAO.salvar(pessoa);
         PessoaDAO.buscarUsuarioPorId(1);
-        PessoaDAO.buscarUsuarioPorId(2);
+
+        PessoaDAO.buscarUsuarioPorId(4);
     }
 
 }
