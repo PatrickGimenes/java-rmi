@@ -18,8 +18,6 @@ public class ServidorRMI {
          try {
             ServicoPessoa servicoPessoa = new ServicoPessoaImpl();
             Naming.rebind("rmi://localhost:9013/Pessoa", servicoPessoa);
-            
-             System.out.println(ConexaoSQLite.conectar());
             System.out.println("Servidor RMI pronto...");
         } catch (Exception e) {
             System.err.println("Erro no servidor RMI: " + e.toString());
