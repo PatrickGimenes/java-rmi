@@ -4,12 +4,8 @@
  * and open the template in the editor.
  */
 
-
 import java.rmi.Remote;
 import java.rmi.RemoteException;
-
-
-
 
 /**
  *

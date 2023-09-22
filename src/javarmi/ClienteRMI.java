@@ -4,7 +4,6 @@
  * and open the template in the editor.
  */
 
-
 import java.rmi.Naming;
 
 /**
@@ -17,10 +16,10 @@ public class ClienteRMI {
         try {
             ServicoPessoa servicoPessoa = (ServicoPessoa) Naming.lookup("rmi://localhost:9013/Pessoa");
 
-            servicoPessoa.salvar("Lucas", 40, "558215478", "15-08-2023");
+            servicoPessoa.salvar("Lucas", 40, "19985468979", "15-08-2023");
             System.out.println("Pessoa salva no banco!");
         } catch (Exception e) {
-            
+
             System.err.println("Erro no cliente: " + e.toString());
             e.printStackTrace();
         }
